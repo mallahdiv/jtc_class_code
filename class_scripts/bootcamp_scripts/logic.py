@@ -67,11 +67,42 @@
 # else:
 # 	print(f'{a}not equals 3!')
 
-a = 2
+# a = 2
 
-if a < 0:
-	print('a is a negative number')
-elif a > 0:
-	print('a positive number ')
+# if a < 0:
+# 	print('a is a negative number')
+# elif a > 0:
+# 	print('a positive number ')
+# else:
+# 	print('this will probably never run')
+
+
+# season = 'fall'
+# if season == 'spring':
+# 	print('getting warmer')
+# elif season == 'winter':
+# 	print('cold out')
+# elif season == 'summer':
+# 	print('hot out')
+# else:
+# 	print('i dont care what the weather is')
+# 	
+# multiple ifs
+# a = 2
+# b = 30
+
+# if a > 10:
+# 	print('agreater than 10')
+# if b > 10:
+# 	print('b greater than 10')
+
+# a = 10
+# if a > 0:
+
+answer = input('Do you want to hear a joke? press y /n')
+if answer == "y":
+	print("I'm against pciketing, but I don't know how to show it.")
+elif answer == "n":
+	print("fine.")
 else:
-	print('this will probably never run')
+	print("I don't understand")
