@@ -4,11 +4,11 @@
 
 # print("Code Snippet 1:")
 
-# a = 2
+# a = 1
 # b = 1
 # c = (a > b)
 
-# print("The value of c  is True since a is greater than b.")
+# print("The value of c  is false since a is equal to  b.")
 
 # print()
 
@@ -16,7 +16,7 @@ print("Code Snippet 2:")
 
 d = (True or (5 > 7) or not (8 < 20))
 
-print("The value of d is False since 5 is not greater than 7.")
+print("The value of d is true since the operator is or and the first statement is true")
 
 print()
 
