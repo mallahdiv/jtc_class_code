@@ -28,7 +28,7 @@ print()
 
 # o = (m == n)
 
-# print ("The value of o is True since Python is case-insensitive.")
+# print ("The value of o is False since Python is case-insensitive.")
 
 # print()
 
@@ -53,10 +53,10 @@ print()
 # if z < x:
 #     print("z is less than x")
 
-# elif z > x and z < y
+# elif z > x and z < y:
 #     print("z is between x and y")
 
-# else
+# else:
 #     print("z is greater than y")
 
 
@@ -64,26 +64,40 @@ print()
 # print()
 # print()
 
-# print("Challenge 3.2: Playing with the stock market")
+print("Challenge 3.2: Playing with the stock market")
 
-# print()
+print()
 
-# print("Challenge 3.2.1: Creating variables")
-# # Create variables to store the current (approximate) market price of these 5 companies - Amazon, Apple, Facebook, Google and Microsoft.
+print("Challenge 3.2.1: Creating variables")
+# Create variables to store the current (approximate) market price of these 5 companies - Amazon, Apple, Facebook, Google and Microsoft.
 
-# amazon = 3000
-# # TODO: Create a variable here for the stock price of Apple = 100
-# # TODO: Create a variable here for the stock price of Facebook = 250
-# # TODO: Create a variable here for the stock price of Google = 1400
-# # TODO: Create a variable here for the stock price of Microsoft = 200
-# print()
+amzn = 3000
+# TODO: Create a variable here for the stock price of
+aapl = 100
+# TODO: Create a variable here for the stock price o
+fb = 250
+# TODO: Create a variable here for the stock price of
+
+goog = 1400
+# TODO: Create a variable here for the stock price of 
+msft = 200
+print()
 
 
 # print("Challenge 3.2.2: Taking user input")
 # # TODO: Write code to ask the client his name and save it to a variable.
+name = input('Enter your name: ')
+# print(name)
 # # TODO: Write code to ask the client his savings and save it to another variable.
+saving = input('Please enter how much savings you have: ')
 # # TODO: Write code to ask the client the stock he is interested in and save it to another variable, as shown below.
-# stock = input("Which stock are you interested in? Type 'amzn' for Amazon, 'aapl' for Apple, 'fb' for Facebook, 'goog' for Google and 'msft' for Microsoft.")
+
+stock = input("Which stock are you interested in? Type 'amzn' for Amazon, 'aapl' for Apple, 'fb' for Facebook, 'goog' for Google and 'msft' for Microsoft.")
+amzn_1 = (int(saving)) / amzn
+aapl_1 = (int(saving)) / aapl
+fb_1 = (int(saving)) / fb
+goog_1 = (int(saving)) / goog
+msft_1 = (int(saving)) /msft
 # print()
 
 # print("Challenge 3.2.3: Perform user-specific calculations")
@@ -92,11 +106,20 @@ print()
 # '''
 # Your code should look like this:
 
-# if stock == "amzn":
-#     ...
-# elif ...
-# else ...
-# '''
+if stock == "amzn":  
+ 	print(f' {name} has ${saving} and can buy {amzn_1} shares of Amazon at the current price of $3000.')
+elif stock == "appl":
+ 	print(f' {name} has ${saving} and can buy {aapl_1} shares of Amazon at the current price of $100.')
+elif stock == "fb":
+ 	print(f' {name} has ${saving} and can buy {fb_1} shares of Amazon at the current price of $250.')
+elif stock == "goog":
+ 	print(f' {name} has ${saving} and can buy {goog_1} shares of Amazon at the current price of $1400.')
+elif stock == "msft":
+	print(f' {name} has ${saving} and can buy {fb_1} shares of Amazon at the current price of $200.')
+else:
+	print("Nobody wants to invest")
+
+
 
 # print()
 
