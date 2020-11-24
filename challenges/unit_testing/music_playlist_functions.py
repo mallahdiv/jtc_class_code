@@ -60,7 +60,11 @@ def search_by_title(playlist, song_title):
 	songs_found = []
 	for song in playlist:
 		if song_title == song['title']:
+
 			songs_found.append(song)
+
+			songs_found.append(song) 
+
 	return(songs_found)
 
 
@@ -92,7 +96,11 @@ Function to remove a song from the playlist by title and artist
 def remove_song(playlist, song_title, song_artist):
 	found_song = False
 	for song in playlist:
+<<<<<<< HEAD
 		if song['title'] == song_title and song['artist'] == song_artist:
+=======
+		if song['title'] == song_title:
+>>>>>>> 411467963d38674034b1066504d6fc564e784f08
 			playlist.remove(song)
 			found_song = True
 

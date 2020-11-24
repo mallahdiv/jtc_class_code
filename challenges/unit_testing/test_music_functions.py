@@ -92,10 +92,13 @@ Also, after shuffling, you can run display_playlist() again
 
 # TODO: test out the play_shuffle() function and fix any problems
 print('QUESTION 3\n')
+<<<<<<< HEAD
 play_shuffle(my_music)
 play_shuffle(my_music)
 play_shuffle(my_music)
 display_playlist(my_music)
+
+
 '''
 BONUS Question 4. Test out the remove_song() function
 This function takes 3 arguments, playlist (list), song_title (string), and song_artist (string)
@@ -115,6 +118,7 @@ Then when you run display_playlist(my_music), you should see this song is gone
 # HINT: Make sure that ONLY the specific song you want to remove (matching title AND artist) has been removed
 print('BONUS QUESTION 4\n')
 remove_song(my_music, song_title, song_artist)
+
 
 '''
 Homework: comment the code & push to Github!
